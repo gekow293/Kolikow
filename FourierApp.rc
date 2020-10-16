@@ -1,0 +1,275 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+#include "verrsrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Русский (Россия) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""verrsrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)\r\n"
+    "LANGUAGE 25, 1\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\FourierApp.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MFCFOURIERAPP_DIALOG DIALOGEX 0, 0, 799, 412
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Fourier Cleaner++"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Generate image",IDB_GEN_IMAGE,164,387,57,14
+    GROUPBOX        "Axis_X",IDC_PARAM_AxisX,0,285,36,96
+    EDITTEXT        IDC_EDITX1,5,296,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITX2,5,312,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITX4,5,344,26,14,ES_AUTOHSCROLL
+    GROUPBOX        "",IDF_FIELD_L,0,0,264,266
+    GROUPBOX        "",IDF_FIELD_R,267,0,264,266
+    DEFPUSHBUTTON   "Restore image",IDB_PushButton_RestoreImage,228,387,57,14
+    PUSHBUTTON      "Clear spectr",IDB_PushButtonClearSpectr,228,368,57,14
+    DEFPUSHBUTTON   "Load image",IDB_BtnLoadImage,292,387,57,14
+    EDITTEXT        IDC_EDITX3,5,328,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITX5,5,360,26,14,ES_AUTOHSCROLL
+    GROUPBOX        "Axis_Y",IDC_PARAM_AxisY,40,285,35,96
+    GROUPBOX        "Sigma_X",IDC_PARAM_SigmaX,80,285,35,96
+    GROUPBOX        "Sigma_Y",IDC_PARAM_SigmaY,120,285,36,96
+    GROUPBOX        "Amplitude",IDC_PARAM_Amplitude,161,285,35,96
+    EDITTEXT        IDC_EDIT_Amplituda5,166,360,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Amplituda4,166,344,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Amplituda3,166,328,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Amplituda2,166,312,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Amplituda1,166,296,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITY1,45,296,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITY2,45,312,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITY3,45,328,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITY5,45,360,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITY4,45,344,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITSigX5,85,360,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITSigX4,85,344,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITSigX3,85,328,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITSigX2,85,312,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITSigX1,85,296,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITSigY5,125,360,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITSigY4,125,344,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITSigY3,125,328,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITSigY2,125,312,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITSigY1,125,296,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LIMIT,325,359,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_NOIZE,324,327,26,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SIZEN,324,298,26,14,ES_AUTOHSCROLL
+    GROUPBOX        "Size_N",IDC_PARAM_SizeN,318,288,38,28,BS_CENTER,WS_EX_RIGHT
+    GROUPBOX        "Noise",IDC_PARAM_noise,319,317,35,29,BS_CENTER,WS_EX_RIGHT
+    GROUPBOX        "Clear procent:",IDC_PARAMLimit,310,347,54,31,BS_CENTER
+    CONTROL         "Change to image",IDC_CHECK_BOX_IMG1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,201,275,66,10
+    CONTROL         "",IDP_PICTURE_C,"Static",SS_OWNERDRAW | SS_REALSIZEIMAGE | SS_SUNKEN,271,6,256,256,WS_EX_ACCEPTFILES
+    CONTROL         "",IDP_PICTURE_L,"Static",SS_OWNERDRAW | SS_REALSIZEIMAGE | SS_SUNKEN,4,6,256,256,WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDITEps,215,308,81,14,ES_AUTOHSCROLL | WS_GROUP
+    GROUPBOX        "Eps(Img, Img+Ns):",IDC_PARAM_SizeN2,209,297,93,31
+    EDITTEXT        IDC_EDITEps1,215,342,81,14,ES_AUTOHSCROLL | WS_GROUP
+    GROUPBOX        "Eps(Img, ImgRest):",IDC_PARAM_SizeN3,209,331,93,31
+    CONTROL         "",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,410,374,8,10
+    CONTROL         "",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,622,375,8,10
+    CONTROL         "",IDP_PICTURE_R,"Static",SS_OWNERDRAW | SS_REALSIZEIMAGE | SS_SUNKEN,538,6,256,256,WS_EX_ACCEPTFILES
+    CONTROL         "",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,514,374,8,10
+    CONTROL         "",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,730,375,8,10
+    GROUPBOX        "",IDF_FIELD_R2,534,0,265,266
+    CONTROL         IDB_BITMAP7,IDP_PICTURE_1,"Static",SS_BITMAP | SS_SUNKEN | WS_TABSTOP,371,282,61,57,WS_EX_ACCEPTFILES
+    CONTROL         IDB_BITMAP8,IDP_PICTURE_2,"Static",SS_BITMAP | SS_REALSIZEIMAGE | SS_SUNKEN,474,282,61,57,WS_EX_ACCEPTFILES
+    CONTROL         IDB_BITMAP9,IDP_PICTURE_3,"Static",SS_BITMAP | SS_REALSIZEIMAGE | SS_SUNKEN,582,282,61,57,WS_EX_ACCEPTFILES
+    CONTROL         IDB_BITMAP10,IDP_PICTURE_4,"Static",SS_BITMAP | SS_REALSIZEIMAGE | SS_SUNKEN,690,282,61,57,WS_EX_ACCEPTFILES
+    PUSHBUTTON      "Ok",IDOK,691,397,50,14
+    PUSHBUTTON      "о программе",IDC_ABOUT_DLG,2,400,48,11
+    PUSHBUTTON      "Exit",IDCANCEL,747,397,50,14
+    CONTROL         "linear(ON)/ log(OFF) scale",IDC_CHECK_LIN_OR_LOG_SCALE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,271,275,99,10
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 309, 54
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "ОК",IDOK,198,7,50,40
+    PUSHBUTTON      "Отмена",IDCANCEL,252,7,50,40
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041904B0"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Название организации>"
+            VALUE "FileDescription", "FourierApp"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "FourierApp.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Название организации>.  Все права защищены."
+            VALUE "OriginalFilename", "FourierApp.exe"
+            VALUE "ProductName", "TODO: <Название продукта>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x419, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_MFCFOURIERAPP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 797
+        VERTGUIDE, 209
+        BOTTOMMARGIN, 411
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 47
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_MFCFOURIERAPP_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+
+IDB_BITMAP6             BITMAP                  "res\\bitmap6.bmp"
+
+#endif    // Русский (Россия) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE 25, 1
+#if !defined(_AFXDLL)
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
